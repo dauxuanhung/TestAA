@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_authorialm"
+    app:startDestination="@id/fragment3">
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.rain.myapplication.FragmentHihi"
+        android:label="Fragment3">
+        <action
+            android:id="@+id/go_login"
+            app:destination="@id/destinationLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/destinationLogin"
+        android:name="com.rain.myapplication.FragmentHihi"
+        android:label="destinationLogin" />
+    <action
+        android:id="@+id/action_go_fragment"
+        app:destination="@id/fragment3"
+        app:popUpTo="@+id/fragment3"
+        app:popUpToInclusive="true" />
+</navigation>

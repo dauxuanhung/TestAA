@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home">
+
+    </item>
+
+    <item
+        android:id="@+id/discover"
+        android:title="Discover">
+
+    </item>
+
+    <item
+        android:id="@+id/provider"
+        android:title="Provider">
+
+    </item>
+
+    <item
+        android:id="@+id/provider1"
+        android:title="Provider">
+
+    </item>
+
+    <item
+        android:id="@+id/provider2"
+        android:title="Provider">
+
+    </item>
+</menu>
